@@ -1,3 +1,5 @@
+#コマンド　$ paste col1.txt col2.txt >margeuni.txt
+
 with open("col1.txt",encoding="utf-8")as col1,\
         open("col2.txt",encoding="utf-8")as col2,\
         open("marg.txt","w",encoding="utf-8")as marg:
