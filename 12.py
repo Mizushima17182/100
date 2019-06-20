@@ -1,3 +1,5 @@
+#$ cut -f 1 hightemp.txt
+
 import sys
 
 with open('hightemp.txt',encoding="utf-8")as data,\
