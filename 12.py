@@ -8,4 +8,3 @@ with open('hightemp.txt',encoding="utf-8")as data,\
             a = line.split("\t")
             c.write(a[0]+"\n")
             cc.write(a[1]+"\n")
-print()
