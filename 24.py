@@ -1,6 +1,8 @@
 #24. ファイル参照の抽出
 #記事から参照されているメディアファイルをすべて抜き出せ．
 #例：ファイル:PalaceOfWestminsterAtNight.jpg|[[ウェストミンスター宮殿]]
+
+#.jpg以降を取り除きたい
 import json,gzip,re
 
 jdata = "jawiki-country.json.gz"
