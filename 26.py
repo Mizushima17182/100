@@ -9,7 +9,7 @@ def uk():
             if linej['title'] == 'イギリス':
                 return linej['text']
 #print( uk())
-
+#強調マークアップ　
 def remove(target):
     pattern = re.compile(r'\'{2,5}',re.MULTILINE + re.VERBOSE)
     resure = pattern.findall(uk())
@@ -24,7 +24,7 @@ dicre = {}
 for dicdata in resu2:
     dicre[dicdata[0]] = remove(dicdata[1])
 #print(resu1)
-print(resu2)
-print(dicre)
+#print(resu2)
+#print(dicre)
 for p,r in dicre.items():
-    print(p,r)
+    print(p,':',r)
