@@ -24,4 +24,5 @@ numlis = list(basedic.values())
 #ヒストグラム
 from matplotlib import rcParams
 plt.hist(numlis,bins=10,range = (1,10))
+plt.xlim(1,10)
 plt.show()
